@@ -17,6 +17,9 @@ public class Chart implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String produkt;
+    private String name;
+    private int age;
+    private double price;
 
     public Long getId() {
         return id;
