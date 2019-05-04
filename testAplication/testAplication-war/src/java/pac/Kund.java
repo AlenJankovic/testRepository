@@ -17,6 +17,8 @@ public class Kund implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String name;
+    private String lastName;
+    private int age;
 
     public Long getId() {
         return id;
