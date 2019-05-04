@@ -25,6 +25,9 @@ public class Chart implements Serializable {
     public void setId(Long id) {
         this.id = id;
     }
+    public void getCart(){
+        
+    }
 
     @Override
     public int hashCode() {
